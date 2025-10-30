@@ -4,7 +4,6 @@
     "paths": {
       "@/*": ["./src/*"],
       "~/*": ["./*"],
-      "@types/*": ["./src/types/*"],
       "@rpg/*": ["./src/features/rpg/*"],
       "@db/*": ["./src/database/*"]
     },
