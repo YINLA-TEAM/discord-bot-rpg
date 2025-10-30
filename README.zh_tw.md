@@ -1,0 +1,23 @@
+# discord-bot-rpg
+
+[English](./README.md) | 繁體中文
+
+一隻 RPG的 Discord 機器人，使用 Discord.js 和 TypeScript 建立。
+
+
+## 環境變數
+在專案的根目錄建立一個 `.env` 檔案，並加入以下變數：
+
+```plaintext
+BOT_TOKEN=your_discord_bot_token
+BOT_ID=your_discord_bot_id
+```
+
+你可以參考 `.env.sample` 檔案來獲取所需的變數。
+
+## 開發
+要啟動開發伺服器，請執行：
+
+```bash
+bun run dev
+```
