@@ -26,7 +26,7 @@ export async function handleCommands(client: Client) {
 
   const rest = new REST({ version: "10" }).setToken(process.env.BOT_TOKEN!);
   try {
-    console.log("[事件]開始註冊指令");
+    console.log("[事件] 開始註冊指令");
     await rest.put(
       Routes.applicationCommands(process.env.BOT_ID!),
       { body: commands }
