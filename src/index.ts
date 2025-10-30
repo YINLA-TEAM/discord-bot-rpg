@@ -2,8 +2,8 @@ import dotenv from "dotenv";
 import {
   ActivityType,
   Client,
-  GatewayIntentBits,
   Collection,
+  GatewayIntentBits,
 } from "discord.js";
 import { handleCommands } from "@/functions/handlers/handleCommands";
 import { handleEvents } from "@/functions/handlers/handleEvents";
