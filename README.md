@@ -33,3 +33,9 @@ bun run dev
 ```bash
 bun run start
 ```
+
+## Commands
+
+- [x] `/choose-class` - Choose a class and create your RPG character.
+- [x] `/profile` - View your RPG profile or another user's profile.
+- [x] `/daily` - Claim your daily rewards.
